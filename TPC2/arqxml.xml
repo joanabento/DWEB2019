@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ARQSITS SYSTEM "TPC2.dtd">
+<ARQSITS>
+    <ARQELEM>
+        <TIPO ASSUNTO="arqueossitio"/>
+        <IDENTI> Castro do Caires </IDENTI>
+        <IMAGEM NOME="taca.gif"/>
+        <DESCRI>...</DESCRI>
+        <LUGAR> Grovos </LUGAR>
+        <FREGUE> Caires </FREGUE>
+        <CONCEL> Amares </CONCEL>
+        <CODADM> 030105 </CODADM>
+        <LATITU> 519,9 </LATITU>
+        <LONGIT> 181,5 </LONGIT>
+        <ALTITU> 320m </ALTITU>
+        <ACESSO>...</ACESSO>
+        <QUADRO>...</QUADRO>
+        <DESARQ>...</DESARQ>
+        <INTERP>...</INTERP>
+        <DEPOSI>...</DEPOSI>
+        <BIBLIO>...</BIBLIO>
+        <BIBLIO>...</BIBLIO>
+        <BIBLIO>...</BIBLIO>
+        <AUTOR> Manuela Martins</AUTOR>
+        <DATA>04-Fev-1998</DATA>
+    </ARQELEM>
+</ARQSITS>
