@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_TP4</keyname>
+        <title>TP4</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>11-10-2019</bdate>
+        <edate>14-10-2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41075</identifier>
+            <name>Joana Filipa da Silva Macieirinha Bento</name>
+            <email>joana-macieirinha@hotmail.com</email>
+            <git>https://github.com/joanabento</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+        <p>
+            No TP4 da UC de Desenvolvimento de Aplicações WEB foi desenvolvido um xsl para converter o ficheiro dos Arqueossítios
+            em vários documentos XML(um para cada Arqueossítio) e foi criado um servidor de ficheiros que através da
+            query string do URL permite aceder a um determinado documento.
+        </p>
+        
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">TP4 - XML(PR)</deliverable>
+        <deliverable path="pr.xsl">TP4 - XSL(PR)</deliverable>
+        <deliverable path="pr.html">TP4 - HTML(PR)</deliverable>
+        <deliverable path="pr.dtd">TP4 - DTD(PR)</deliverable>
+        <deliverable path="Arqueossitios.xsl">TP4 - XSL(Arqueossitios)</deliverable>
+        <deliverable path="servidor.js">TP4 - Servidor(Arquossitios)</deliverable>
+        
+    </deliverables>
+</pr>
