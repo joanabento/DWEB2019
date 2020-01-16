@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Informacoes da entidade
+    table.w3-table-all
+      tr
+        th Estado
+        th Sigla
+        th Sioe
+        th Designacao
+        th Internacional
+        tr
+          td=lista.estado
+          td=lista.sigla
+          td=lista.sioe
+          td=lista.designacao
+          td=lista.internacional
+    address
+        a(href="http://localhost:3000/") HomePage

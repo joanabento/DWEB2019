@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Lista de entidades
+        table.w3-table-all
+            tr
+                th Estado
+                th sigla
+            each ent in lista
+                tr
+                    td=ent.estado
+                    td=ent.sigla
+                      button.w3-circle.w3-blue-grey(onclick="VerEntidade('"+ent.id+"')") Ver
+        address
+            a(href="http://localhost:3000/") HomePage

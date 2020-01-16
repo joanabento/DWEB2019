@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Informacao da entidade
+    table.w3-table-all
+      tr
+        th Estado
+        th Sigla
+        th Designacao
+        tr
+          td=lista.estado
+          td=lista.sigla
+          td=lista.designacao
+    h1 Lista de tipologias a que pertencente
+    table.w3-table-all
+      tr
+        th Sigla
+        th Designacao
+      each enti in lista1
+        tr
+          td=enti.sigla
+          td=enti.designacao
+          td
+            button.w3-circle.w3-blue-grey(onclick="VerInfo('"+enti.id+"')") Ver
+    h1 Lista de processos que a entidade é dona
+    table.w3-table-all
+      tr
+        th Codigo
+        th Titulo
+        
+      each my in lista2
+        tr
+          td=my.codigo
+          td=my.titulo
+    h1 Lista de processos que a entidade é participante
+    table.w3-table-all
+      tr
+        th tipoPar
+        th codigo
+        th titulo
+        
+      each part in lista3
+        tr
+          td=part.tipoPart
+          td=part.codigo
+          td=part.titulo
+   address
+        a(href="http://localhost:3000/") HomePage

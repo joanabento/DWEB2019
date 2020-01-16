@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>MEI_WEB_Teste</keyname>
+        <title>Teste</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>16-10-2019</bdate>
+       
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41075</identifier>
+            <name>Joana Filipa da Silva Macieirinha Bento</name>
+            <email>joana-macieirinha@hotmail.com</email>
+            <git>https://github.com/joanabento/DWEB2019</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+        <p>
+		A pasta tem o nome de obras.
+          No exercicio um usa-se um servidor mongo. O ficheiro que o professor forneceu foi convertido de xml para json usando um conversor online.
+		  mongoimport --db obras --collection obras --jsonArray obras.json
+		  localhost:3000/ para ambos os exercicios 
+        </p>
+        
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">Teste - XML(PR)</deliverable>
+   
+        
+        
+    </deliverables>
+</pr>
