@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "PR.dtd">
+<pr>
+    <metadata>
+        <keyname>RecursoDweb2020</keyname>
+        <title>Avaliação</title>
+        <supervisor  homepage="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho </supervisor>
+        <bdate>27-01-2020</bdate>
+        <edate>27-01-2020</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>PG41075</identifier>
+            <name>Joana Filipa da Silva Macieirinha Bento</name>
+            <email>joana-macieirinha@hotmail.com</email>
+            <git>https://github.com/joanabento</git>
+        </worker>
+    </workteam>
+    
+    
+    <abstract>
+        
+        <p>
+            Neste PR encontra-se os ficheiros da resolução do recurso e como correr os servidores.
+            Ex1.
+                O ex1 usa um servidor em mongo, o ficheiro original foi convertido de xml para json usando um conversor online.
+                De modo a manter o nome da base de dados e coleçoes use:
+                mongoimport --db musicas --c musicas --jsonArray musica.json
+                Corre em localhost:3000/
+            Ex2. O ex2 corre no localhost:3000/
+        </p>
+        
+    </abstract>
+    <deliverables>
+        <deliverable path="exclav">Exercicio 2</deliverable>
+        <deliverable path="musicas">Exercicio1</deliverable>
+        <deliverable path="perguntas.txt">Respostas ao exercicio 2.1</deliverable>
+        <deliverable path="musica.json">Ficheiro Json</deliverable>
+    </deliverables>
+</pr>

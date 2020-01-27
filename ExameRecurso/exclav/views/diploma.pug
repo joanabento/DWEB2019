@@ -1,0 +1,52 @@
+extends layout
+block content
+    address
+        a(href="http://localhost:3000/") HomePage
+    .w3-container
+        h1 Lista de diplomas
+        table.w3-table-all
+            tr
+                th id
+                th data
+                th numero
+                th tipo
+                th sumario
+                th estado
+                th fonte
+                th link
+                tr
+                    td=lista.id
+                    td=lista.data
+                    td=lista.numero
+                    td=lista.tipo
+                    td=lista.sumario
+                    td=lista.estado
+                    td=lista.fonte
+                    td=lista.link
+
+        h1 Lista de entidades a que o diploma pertence
+        table.w3-table-all
+            tr
+                th id
+                th sigla
+                th Ver
+            each ent in lista.entidades
+                tr
+                    td=ent.id
+                    td=ent.sigla
+                    td
+                        button.w3-circle.w3-blue-grey(onclick="VerEnt('"+ent.sigla+"')") Ver
+                        a.w3-button.w3-padding-small.w3-green.w3-border(href='http://clav.dglab.gov.pt/entidades/'+ent.id) Aceder Grupo
+                        a(href='http://clav.dglab.gov.pt/entidades/'+ent.id)
+
+        h1 Lista de processos a que o diploma pertence
+        table.w3-table-all
+            tr
+                th codigo
+                th titulo
+                th id
+            each tip in lista1
+                tr
+                    td=tip.codigo
+                    td=tip.titulo
+                    td=tip.id

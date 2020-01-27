@@ -1,0 +1,21 @@
+extends layout
+block content
+    .w3-container
+        h1 Lista de diplomas legislativos
+        table.w3-table-all
+            tr
+                th data
+                th tipo
+                th numero
+                th sumario
+                th Ver
+            each dip in lista
+                tr
+                    td=dip.data
+                    td=dip.tipo
+                    td=dip.numero
+                    td=dip.sumario
+                    td
+                      button.w3-circle.w3-blue-grey(onclick="VerDiploma('"+dip.id+"')") Ver
+        address
+            a(href="http://localhost:3000/") HomePage
